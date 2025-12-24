@@ -1,0 +1,7 @@
+<!--
+@input  Dependencies: [Referenced documents, e.g.: architecture.md, conventions.md]
+@output Provides: [Core content of this document, e.g.: API usage guide, configuration instructions]
+@pos    Role: [Position in documentation hierarchy, e.g.: Developer onboarding document]
+
+When this file is updated, update the file header comments and the folder's FOLDER.md
+-->

@@ -1,0 +1,7 @@
+/**
+ * @input  Dependencies: [External dependencies, e.g.: React, zustand, ./types]
+ * @output Provides: [Exported interfaces/functions, e.g.: useStore hook, StoreProvider component]
+ * @pos    Role: [Role in the system, e.g.: State management core module]
+ *
+ * When this file is updated, update the file header comments and the folder's FOLDER.md
+ */

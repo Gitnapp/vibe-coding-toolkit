@@ -1,0 +1,46 @@
+# Project Context
+
+> Update this file when architecture changes.
+
+## Purpose
+
+[Brief description of your project's purpose]
+
+## Documentation Index
+
+| Document | Content |
+|----------|---------|
+| [architecture.md](../docs/architecture.md) | System architecture, data flow, core interfaces |
+| [conventions.md](../docs/conventions.md) | Code conventions, architecture patterns, domain concepts |
+
+## Three-Layer Documentation
+
+| Layer | Location | Content | Update Trigger |
+|-------|----------|---------|----------------|
+| **L1 Root** | `AGENTS.md`, `openspec/project.md` | Global rules, index | Architecture changes |
+| **L2 Folder** | `FOLDER.md` in each directory | 3-line architecture + file list | File add/remove/rename |
+| **L3 File** | Header comments in each file | `@input`, `@output`, `@pos` declarations | Interface changes |
+
+## Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Framework | [Your framework] |
+| UI | [Your UI libraries] |
+| Database | [Your database] |
+| AI | [Your AI integrations] |
+
+## Environment Variables
+
+| Variable | Purpose |
+|----------|---------|
+| `DATABASE_URL` | Database connection |
+| `API_KEY` | API authentication |
+
+## CI/CD Branches
+
+| Branch | Environment | Notes |
+|--------|-------------|-------|
+| `dev` | Local | Development |
+| `preview` | Staging | Preview deployments |
+| `main` | Production | Production deployments |
